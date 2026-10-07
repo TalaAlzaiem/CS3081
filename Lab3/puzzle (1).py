@@ -46,10 +46,9 @@ knowledge.add(
     Not(Symbol("PomonaSlytherin"))
 )
 
-knowledge.add(
-    Symbol("GilderoyRavenclaw")
-)
-    
+
+knowledge.add(And(Symbol("GilderoyRavenclaw"), Symbol("HoraceSlytherin")))
+
 
 
 for symbol in symbols:
